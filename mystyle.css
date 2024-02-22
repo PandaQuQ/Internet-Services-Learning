@@ -1,0 +1,32 @@
+.center_animation {
+    text-align:center; 
+    width:99%; 
+    margin:auto;
+    display: block;
+    animation: effect 0.3s linear infinite;
+    color: transparent;
+}
+
+.center{
+    text-align:center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#df7587, #dd0b5c);
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background: linear-gradient(#462150, #f806e4);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(#3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
