@@ -1,7 +1,8 @@
 .center_animation {
     text-align:center; 
     width:99%; 
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
     display: block;
     animation: effect 0.3s linear infinite;
     color: transparent;
@@ -12,21 +13,33 @@
     display: block;
     margin-left: auto;
     margin-right: auto;}
-
+table, th, td {
+  border:1px solid black;
+  margin: auto;
+}
+ol,li{
+    margin: auto;
+}
+body {
+    background-image: url('images/R.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
 @keyframes effect {
     0% {
-        background: linear-gradient(#df7587, #dd0b5c);
+        background: linear-gradient(#cf7e8c, #f0a6c2);
         -webkit-background-clip: text;
     }
 
     50% {
-        background: linear-gradient(#462150, #f806e4);
+        background: linear-gradient(#d66ff3, #ff19ec);
         -webkit-background-clip: text;
     }
 
     100% {
-        background: linear-gradient(#3CE7D7, #000FFF);
+        background: linear-gradient(#47fae8, #737cf7);
         -webkit-background-clip: text;
     }
 }
